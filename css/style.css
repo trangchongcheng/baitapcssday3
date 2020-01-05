@@ -1,0 +1,151 @@
+/* Header */
+html{
+    font-family:Arial, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    height: 50px;
+
+
+}
+.header img{
+    height: 50px;
+}
+.header .logo{
+    float: left;
+    width: 80%;
+}
+.header .sologan{
+    float: left;
+    width: 20%;
+}
+.clear{
+    clear: both;
+}
+
+/* Menu */
+
+.menu{
+    border-top:1px solid #DDDDDD;
+    border-bottom:1px solid #DDDDDD;
+}
+.menu a{
+    text-decoration: none;
+    color: #626262;
+}
+.menu ul li{
+    display: inline;
+    text-transform: uppercase;
+    font-weight: 600;
+  
+}
+ul li{
+    padding: 0px 20px;
+}
+li:hover{
+    border-bottom:2px red solid;
+}
+/* Carousel */
+
+.carousel{
+    margin-top: 10px;
+    height: 500px;
+    background-image: url(../images/slider_1.png);
+    background-size: cover; /* Dan rộng ra tỉ lệ phù hợp*/
+
+}
+
+/* Intro */
+
+h2{
+    margin-top: 50px;
+    color:#626262;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+
+} 
+h2:after {
+    content: "";
+    display: block;
+    height: 40px;
+    background-image: url(../images/line.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+/* Programs */
+
+.items{
+    float: left;
+    width: 25%;
+    padding: 15px;
+
+}
+.items img{
+    width: 100%;
+}
+.programs__item .items h3 {
+    font-size: 15px;
+    color: firebrick;
+}
+.items__description{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* NEWS */
+
+.news__left{
+    float: left;
+    width: 50%;
+    position: relative;
+}
+.news__right{
+    float: left;
+    width: 50%;
+}
+.news__left .news_title{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 10%;
+    width: 100%;
+    padding: 20px;
+    margin: 0px auto;
+    color: azure;
+    font-weight: 600;
+    background-color: rgba(24, 27, 27, 0.404);
+}
+.news__left img{
+    width: 100%;
+}
+
+.news__right__items img{
+    height: 100%;
+    display: block;
+    width: 100%;
+    margin: 0px auto;
+}
+.news__right__items{
+    float: left;
+    width: 50%;
+    position: relative;
+
+}
+.news_title{
+    position: absolute;
+    bottom: 0px;
+    height: 20%;
+    width: 100%;
+    padding: 20px;
+    margin: 0px auto;
+    color: azure;
+    font-weight: 600;
+    background-color: rgba(24, 27, 27, 0.404);
+    
+}
+
